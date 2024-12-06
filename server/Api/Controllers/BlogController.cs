@@ -7,8 +7,8 @@ namespace Api.Controllers;
 
 [ApiController]
 [Route("api/blog")]
-public class BlogController(IBlogService blogService) : ControllerBase
-{
+public class BlogController(IBlogService blogService) : ControllerBase{
+    //test
     private readonly IBlogService blogService = blogService;
 
     [HttpGet]
